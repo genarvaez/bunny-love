@@ -1,0 +1,50 @@
+*{
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+/*BARRA DE MENU*/
+.menu{
+	background: #0080FF;
+	width: 100%
+}
+.logo a{
+	text-decoration: none;
+	color: white;
+}
+.logo a span{
+	color: #F78181;
+	font-family: 'Coiny', cursive;
+}
+.caja.menu{
+	height: 80px
+}
+.logo h1{
+	margin: 15px;
+	margin-left: 67px;
+	font-family: 'Coiny', cursive;
+}
+.caja.link a{
+	text-decoration: none;
+	color: whitesmoke;
+	margin-left: 30px;
+	cursor: pointer;
+	font-size: 0.9em;
+}
+.caja.link{
+	margin-top: 40px;
+}
+.caja.menu .col9{
+	text-align: right;
+}
+/*HOME*/
+.caja.home-section{
+	display: flex;
+	justify-content: center;
+}
+.col8.home-section{
+	background: url('../img/img-1.jpg');
+	background-size: cover;
+	height: 70vh;
+	
+}
