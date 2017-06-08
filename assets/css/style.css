@@ -1,9 +1,12 @@
 *{
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 	
+}
+body{
+	background-color: #E0F8F7
 }
 /*BARRA DE MENU*/
 h1{
@@ -11,7 +14,7 @@ h1{
 }
 .menu{
 	background: #0080FF;
-	width: 100%
+	width: 100%	
 }
 .logo a{
 	text-decoration: none;
@@ -22,7 +25,8 @@ h1{
 	font-family: 'Coiny', cursive;
 }
 .caja.menu{
-	height: 80px
+	height: 80px;
+	margin: auto;
 }
 .logo h1{
 	margin: 15px;
@@ -42,9 +46,10 @@ h1{
 	text-align: right;
 }
 /*HOME*/ 
-.caja.home-section{
+.caja.home-section, .info-boxes, .media-bunny-box{
 	display: flex;
 	justify-content: center;
+	margin: inherit;
 }
 .col12.home-section{
 	background: url('../img/img-1.jpg');
@@ -70,6 +75,7 @@ h1{
 	letter-spacing: 8px;
 	padding: 20px;
 }
+
 /*SECTION BUNNYS BOX*/
 .box-bunnys img{
 	width: 100%;
@@ -86,14 +92,88 @@ h1{
 	height: 40vh;
 	color: white;
 }
-.info-boxes{
-	text-align: center;
-	display: flex;
-	justify-content: center;
-}
+
 .box-bunnys{
 	background-color: white;
 	padding: 8px;	
 	margin: 0;
 	box-sizing: content-box;
+}
+/*BOX IMAGE SECTION*/
+.box-image img{
+	width: 100%;
+	
+}
+.box-image{
+	margin: 0;
+	padding: 20px 10px;
+	background-color: #0080FF;
+}
+.box-image-two{
+	background-color: #0080FF;
+	padding: 20px 10px;
+	margin: 0;
+}
+.box-image-two img{
+	width: 100%;
+	margin-top: 10px;
+}
+.box-image-two input{
+	width: 100%;
+	border-radius: 5px;
+	height: 20px;
+	padding: 15px;
+	border: 25px solid #E0F8F7;
+}
+.box-image h1, .box-image-two h1{
+	color: #F78181;
+	background-color: #E0F8F7;
+	padding: 10px;
+}
+.box-image p, .box-image-two p{
+	background-color: #E0F8F7;
+	padding: 10px;
+}
+.social-media{
+	width: 100%;
+	background-color: #E0F8F7;
+	text-align: center;
+	color: blue;
+}
+.social-media i{
+	padding: 10px;
+	border-radius: 100%;
+	background-color: white;
+	margin: 10px 10px 30px 10px;
+
+}
+iframe{
+	width: 100%;
+}
+.media-bunny-box{
+	text-align: center;
+}
+.box-image-two h1{
+	font-size: 1em;
+}
+.box-image-two p{
+	padding: 20px;
+}
+.caja.final{
+	background: url('../img/bunny-head.png');
+	height: 60px;
+	background-size: 128px;
+	margin: 20px;
+}
+/*Footer*/
+.footer{
+	height: 120px;
+	background-color: #0080FF;
+	width: 100%;
+	color: white;
+	text-align: center;
+	border-top: 2px solid #F78181;
+}
+.footer p{
+	padding-top: 50px;
 }
