@@ -2,8 +2,13 @@
 	font-family: 'Roboto', sans-serif;
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
+	
 }
 /*BARRA DE MENU*/
+h1{
+	font-family: 'Coiny', cursive;
+}
 .menu{
 	background: #0080FF;
 	width: 100%
@@ -22,7 +27,6 @@
 .logo h1{
 	margin: 15px;
 	margin-left: 67px;
-	font-family: 'Coiny', cursive;
 }
 .caja.link a{
 	text-decoration: none;
@@ -32,19 +36,64 @@
 	font-size: 0.9em;
 }
 .caja.link{
-	margin-top: 40px;
+	margin-top: 30px;
 }
 .caja.menu .col9{
 	text-align: right;
 }
-/*HOME*/
+/*HOME*/ 
 .caja.home-section{
 	display: flex;
 	justify-content: center;
 }
-.col8.home-section{
+.col12.home-section{
 	background: url('../img/img-1.jpg');
 	background-size: cover;
 	height: 70vh;
-	
+	padding: 50px 0;
+}
+.home-box{
+	background-color: rgba(0, 141, 203, 0.6);
+	height: 350px;
+	width: 700px;
+	margin: 0 auto;
+	text-align: center;
+	padding: 50px 0 ;
+}
+.home-box h1{
+	color: #F78181;
+	font-size: 5em;
+}
+.home-box p{
+	color: white;
+	font-style: italic;
+	letter-spacing: 8px;
+	padding: 20px;
+}
+/*SECTION BUNNYS BOX*/
+.box-bunnys img{
+	width: 100%;
+	padding-top: 20px;
+}
+.box-bunnys h1{
+	color: #F78181;
+	font-size: 1em;
+	background-color: #0080FF;
+}
+.box-bunnys p{
+	background-color: #0080FF;
+	padding: 40px 20px;
+	height: 40vh;
+	color: white;
+}
+.info-boxes{
+	text-align: center;
+	display: flex;
+	justify-content: center;
+}
+.box-bunnys{
+	background-color: white;
+	padding: 8px;	
+	margin: 0;
+	box-sizing: content-box;
 }

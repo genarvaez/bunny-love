@@ -47,7 +47,7 @@
 
 	
 	/*Contenedor de todos los elementos del sitio - Controla la posicion del sitio: derecha, centro o izquierda */
-	#contenedor { margin: 0 auto; padding: 0 10px; text-align: left; overflow: hidden; }	
+	.contenedor { margin: 0 auto; padding: 0 10px; text-align: left; overflow: hidden; }	
 	
 	/*Unidad contenedora generica, aplicar siempre que existen 2 o mas columnas paralelas o como contenedor basico.*/
 	.caja { width: 100%; overflow: hidden; margin: 0 0 1em 0; display: block; overflow: hidden; }
